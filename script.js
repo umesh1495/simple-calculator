@@ -17,7 +17,7 @@ function printOutput(num){
     
 }
 function getFormattedNumber(num){
-    if(num=="-"){
+    if(num==""){
         return "";
     }
     var n = Number(num);
